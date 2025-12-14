@@ -1,3 +1,5 @@
+# With love 💖 for CS50
+
 import shutil
 from pathlib import Path
 import time
@@ -83,7 +85,7 @@ def main():
     elif choice == '5':
         organize_files("Music")
     elif choice == '6':
-        organize_files("Exit")
+        organize_files("Videos")
     elif choice == '7':
         print("Exiting...")
         time.sleep(2)
